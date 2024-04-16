@@ -23,7 +23,7 @@ public class AIMove {
         iAmWinner = false;
         if (winnerFound == 0) {
             points = minMax(keepingTrack, depth, -Integer.MAX_VALUE, Integer.MAX_VALUE, 2);
-            ImageIcon yellowIconRecolored = new ImageIcon("C:/JAVA/extra/recoloredyellow.png");
+            ImageIcon yellowIconRecolored = new ImageIcon("./recoloredyellow.png");
             colChoice = points[0];
             if (occupiedCells[colChoice] < 6) { // check if there is space in the column
                 int rowCount = 6 - 1 - occupiedCells[colChoice];
