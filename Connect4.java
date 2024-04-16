@@ -68,7 +68,7 @@ public class Connect4 {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         // creates the background label
-        ImageIcon imageIcon = new ImageIcon("C:/JAVA/extra/connect4platform.jpg");
+        ImageIcon imageIcon = new ImageIcon("./connect4platform.jpg");
         JLabel background = new JLabel(imageIcon);
         background.setPreferredSize(new Dimension(imageIcon.getIconWidth(), imageIcon.getIconHeight()));
         frame.getContentPane().add(background, BorderLayout.SOUTH);
@@ -79,10 +79,10 @@ public class Connect4 {
         int imageHeight = imageIcon.getIconHeight();
 
         // creates the sequins for each player
-        ImageIcon redIcon = new ImageIcon("C:/JAVA/extra/red1.png");
-        ImageIcon redIconRecolored = new ImageIcon("C:/JAVA/extra/recoloredRed.png");
-        ImageIcon yellowIconRecolored = new ImageIcon("C:/JAVA/extra/recoloredYellow.png");
-        ImageIcon yellowIcon = new ImageIcon("C:/JAVA/extra/yellow1.png");
+        ImageIcon redIcon = new ImageIcon("./red1.png");
+        ImageIcon redIconRecolored = new ImageIcon("./recoloredRed.png");
+        ImageIcon yellowIconRecolored = new ImageIcon("./recoloredYellow.png");
+        ImageIcon yellowIcon = new ImageIcon("./yellow1.png");
 
         // creates the buttons and makes their actionlisteners
         JPanel buttonPanel = new JPanel(new GridLayout(6, 7));
