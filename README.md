@@ -1,9 +1,9 @@
-ONOMA: Kafantaris Konstantinos , AEM :03230
+Name: Kafantaris Konstantinos
 
-Sto parakatw keimeno perigrafontai kapoia kommatia tou kwdika pou xreiazontai epejhghsh 
+In the following text , there are given information about the files
 
-1. STO PARAKATO KOMMATI ARXIKOPOIOYNTAI OI EIKONES OI OPOIES EINAI APARAITHTES,prepei na dwthei to svsto filepath pros thn eikona
-Seires 69,79-83 , sto "Connect4" file : 
+1.Here we instantiate the basic images for the project, the correct filepath should be given
+Lines 69,79-83 , in "Connect4" file : 
         ImageIcon imageIcon = new ImageIcon("C:/JAVA/extra/connect4platform.jpg");
 
         // creates the sequins for each player
@@ -12,15 +12,15 @@ Seires 69,79-83 , sto "Connect4" file :
         ImageIcon yellowIconRecolored = new ImageIcon("C:/JAVA/extra/recoloredYellow.png");
         ImageIcon yellowIcon = new ImageIcon("C:/JAVA/extra/yellow1.png");
 
-Seira 29, sto "AiMove" file :
+Line 29, in "AiMove" file :
         ImageIcon yellowIconRecolored = new ImageIcon("C:/JAVA/extra/recoloredyellow.png");
    
     oi eikones autes einai ston fakelo thw ergasias.
 
-2. Yparxei ena epipleon kommati kwdika to opoio ylopoioi to "2Player Game" .
-3. o fakelos toy History dhmiourgeitai sto ejhs shmeio:
-        seira 808, "Connect4 " file :System.getProperty("user.home") kai exei onoma String folderName = "JsonFilesFolder";
-4. Exei epilogh bohteias gia ton paikth sthn opoia mporei na epilejei anamesa se 2 koumpia 
+2. YThere is an extra code that is made for the "2Player Game" .
+3. History folder is created in this line:
+        line 808, "Connect4 " file :System.getProperty("user.home") kai exei onoma String folderName = "JsonFilesFolder";
+4. There are helpful information about the game:
         JMenuItem helpFind = new JMenuItem("Game Rules"); --> text help
         JMenuItem helpFound = new JMenuItem("Video with rules"); --> internet help with video
 
